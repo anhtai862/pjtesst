@@ -6,7 +6,7 @@ checkbox.addEventListener("change",() => {
 
 });
 
-var playButton = document.querySelector(".play__button");
+var playButton = document.querySelector(".video-play-icon");
 var videoContent = document.querySelector(".video__content");
 var closeVideo = document.querySelector ("#close__video");
 
@@ -16,4 +16,3 @@ playButton.addEventListener("click",function () {
 closeVideo.addEventListener("click",function () {
     videoContent.style.display = "none"
 })
-
